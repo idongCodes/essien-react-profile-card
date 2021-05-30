@@ -1,0 +1,2 @@
+(this["webpackJsonpessien-profile-card"]=this["webpackJsonpessien-profile-card"]||[]).push([[0],{11:function(e,n,t){"use strict";t.r(n);var c=t(1),s=t.n(c),r=t(3),i=t.n(r),o=(t(8),t(9),t(0));var a=function(){return Object(o.jsx)("div",{className:"App"})};i.a.render(Object(o.jsx)(s.a.StrictMode,{children:Object(o.jsx)(a,{})}),document.getElementById("root"))},8:function(e,n,t){},9:function(e,n,t){}},[[11,1,2]]]);
+//# sourceMappingURL=main.0a7ca3ba.chunk.js.map
