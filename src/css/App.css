@@ -1,0 +1,14 @@
+:root {
+  --debug: 1px solid red;
+}
+
+.App {
+  border: var(--debug);
+
+  text-align: center;
+  width: 45%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
