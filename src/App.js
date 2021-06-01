@@ -23,8 +23,10 @@ function App() {
       <button onClick={ () => setFname('My name is Idong!') }>Name</button>
       <button onClick={ () => setMyTitle(`And I'm a Front-End Developer!`) }>Skills</button>
 
-      <Display name={ fname } />
-      <Display title={ myTitle } />
+      <div className='display'>
+        <Display name={ fname } />
+        <Display title={ myTitle } />
+      </div>
 
       <img className='like-btn' src={ like } alt='like button' onClick={ () => setCount(count += 1)} /><span>{ count }</span>
 

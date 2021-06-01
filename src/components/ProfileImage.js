@@ -1,13 +1,12 @@
 import '../css/ProfileImage.css';
 
 import ProfileImg from '../assests/profileimg.jpeg';
-import { ProfileImgDiv } from '../styledComponents';
 
 function ProfileImage() {
     return (
-        <ProfileImgDiv>
+        <div className='pro-img-div'>
             <img className='pro-img' src={ ProfileImg } alt='profile avatar' />
-        </ProfileImgDiv>
+        </div>
     );
 }
 

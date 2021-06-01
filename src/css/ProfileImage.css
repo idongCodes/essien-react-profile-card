@@ -1,5 +1,8 @@
 .pro-img {
     width: 100%;
     border-radius: 50%;
-    filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.2));
+}
+
+.pro-img-div {
+    width: 40%;
 }
