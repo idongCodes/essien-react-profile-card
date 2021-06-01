@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import like from './assests/heart.svg';
 
 import './css/App.css';
 
@@ -8,8 +9,9 @@ import Display from './components/Display';
 
 function App() {
 
-  const [fname, setFname] = useState('Click the NAME button.');
-  const [myTitle, setMyTitle] = useState('Click the SKILLS button.');
+  const[fname, setFname] = useState('Click the NAME button.');
+  const[myTitle, setMyTitle] = useState('Click the SKILLS button.');
+  let[count, setCount] = useState(0);
 
   return (
     <div id='root-app' className="App">
@@ -22,6 +24,8 @@ function App() {
       <Display name={ fname } />
       <Display title={ myTitle } />
 
+      <img className='like-btn' src={ like } alt='like button' onClick={ () => setCount(count += 1)} /><span>{ count }</span>
+
     </div>
   );
 }
@@ -29,3 +33,4 @@ function App() {
 export {
   App,
 }
+
