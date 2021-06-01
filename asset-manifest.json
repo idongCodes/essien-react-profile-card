@@ -1,22 +1,27 @@
 {
   "files": {
-    "main.css": "/essien-react-profile-card/static/css/main.749f24b7.chunk.css",
-    "main.js": "/essien-react-profile-card/static/js/main.f7e14f45.chunk.js",
-    "main.js.map": "/essien-react-profile-card/static/js/main.f7e14f45.chunk.js.map",
+    "main.css": "/essien-react-profile-card/static/css/main.e0813e70.chunk.css",
+    "main.js": "/essien-react-profile-card/static/js/main.8911ed98.chunk.js",
+    "main.js.map": "/essien-react-profile-card/static/js/main.8911ed98.chunk.js.map",
     "runtime-main.js": "/essien-react-profile-card/static/js/runtime-main.386af6ab.js",
     "runtime-main.js.map": "/essien-react-profile-card/static/js/runtime-main.386af6ab.js.map",
     "static/js/2.20fe0a9c.chunk.js": "/essien-react-profile-card/static/js/2.20fe0a9c.chunk.js",
     "static/js/2.20fe0a9c.chunk.js.map": "/essien-react-profile-card/static/js/2.20fe0a9c.chunk.js.map",
     "index.html": "/essien-react-profile-card/index.html",
-    "static/css/main.749f24b7.chunk.css.map": "/essien-react-profile-card/static/css/main.749f24b7.chunk.css.map",
+    "static/css/main.e0813e70.chunk.css.map": "/essien-react-profile-card/static/css/main.e0813e70.chunk.css.map",
     "static/js/2.20fe0a9c.chunk.js.LICENSE.txt": "/essien-react-profile-card/static/js/2.20fe0a9c.chunk.js.LICENSE.txt",
     "static/media/heart.9beb72fc.svg": "/essien-react-profile-card/static/media/heart.9beb72fc.svg",
+    "static/media/logo-facebook.e82b5050.svg": "/essien-react-profile-card/static/media/logo-facebook.e82b5050.svg",
+    "static/media/logo-github.4f47f030.svg": "/essien-react-profile-card/static/media/logo-github.4f47f030.svg",
+    "static/media/logo-instagram.d031b68e.svg": "/essien-react-profile-card/static/media/logo-instagram.d031b68e.svg",
+    "static/media/logo-linkedin.8adc6acd.svg": "/essien-react-profile-card/static/media/logo-linkedin.8adc6acd.svg",
+    "static/media/logo-twitter.272e518a.svg": "/essien-react-profile-card/static/media/logo-twitter.272e518a.svg",
     "static/media/profileimg.d7f1964d.jpeg": "/essien-react-profile-card/static/media/profileimg.d7f1964d.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.386af6ab.js",
     "static/js/2.20fe0a9c.chunk.js",
-    "static/css/main.749f24b7.chunk.css",
-    "static/js/main.f7e14f45.chunk.js"
+    "static/css/main.e0813e70.chunk.css",
+    "static/js/main.8911ed98.chunk.js"
   ]
 }
