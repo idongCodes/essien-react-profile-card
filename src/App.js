@@ -1,16 +1,31 @@
+import React, { useState } from 'react';
+
 import './css/App.css';
 
 import ProfileImage from './components/ProfileImage';
-import { Buttons, Display } from './components/Buttons';
+import Display from './components/Display';
+
 
 function App() {
+
+  const [fname, setFname] = useState('Click the NAME button.');
+  const [myTitle, setMyTitle] = useState('Click the SKILLS button.');
+
   return (
-    <div className="App">
+    <div id='root-app' className="App">
+
       <ProfileImage />
-      <Display />
-      <Buttons />
+
+      <button onClick={ () => setFname('My name is Idong!') }>Name</button>
+      <button onClick={ () => setMyTitle(`And I'm a Front-End Developer!`) }>Skills</button>
+
+      <Display name={ fname } />
+      <Display title={ myTitle } />
+
     </div>
   );
 }
 
-export default App;
+export {
+  App,
+}
