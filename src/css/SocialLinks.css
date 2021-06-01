@@ -1,0 +1,12 @@
+footer {
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+footer img {
+    width: 1.3rem;
+}

@@ -5,6 +5,7 @@ import './css/App.css';
 
 import ProfileImage from './components/ProfileImage';
 import Display from './components/Display';
+import SocialLinks from './components/SocialLinks';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <div id='root-app' className="App">
 
       <ProfileImage />
+      <SocialLinks />
 
       <button onClick={ () => setFname('My name is Idong!') }>Name</button>
       <button onClick={ () => setMyTitle(`And I'm a Front-End Developer!`) }>Skills</button>
