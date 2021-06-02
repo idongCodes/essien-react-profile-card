@@ -10,9 +10,9 @@ import SocialLinks from './components/SocialLinks';
 
 function App() {
 
-  const[fname, setFname] = useState('Click the NAME button.');
-  const[myTitle, setMyTitle] = useState('Click the SKILLS button.');
-  let[count, setCount] = useState(0);
+  const [fname, setFname] = useState('Click the NAME button.');
+  const [myTitle, setMyTitle] = useState('Click the SKILLS button.');
+  let [count, setCount] = useState(0);
 
   return (
     <div id='root-app' className="App">
@@ -20,15 +20,19 @@ function App() {
       <ProfileImage />
       <SocialLinks />
 
-      <button onClick={ () => setFname('My name is Idong!') }>Name</button>
-      <button onClick={ () => setMyTitle(`And I'm a Front-End Developer!`) }>Skills</button>
-
-      <div className='display'>
-        <Display name={ fname } />
-        <Display title={ myTitle } />
+      <div className='buttons'>
+        <button onClick={() => setFname('My name is Idong!')}>Name</button>
+        <button onClick={() => setMyTitle(`And I'm a Front-End Developer!`)}>Skills</button>
       </div>
 
-      <img className='like-btn' src={ like } alt='like button' onClick={ () => setCount(count += 1)} /><span>{ count }</span>
+      <div className='display'>
+        <Display name={fname} />
+        <Display title={myTitle} />
+      </div>
+
+      <div className='like'>
+        <img className='like-btn' src={like} alt='like button' onClick={() => setCount(count += 1)} /><span>{count}</span>
+      </div>
 
     </div>
   );

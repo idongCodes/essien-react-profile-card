@@ -1,12 +1,14 @@
 footer {
-    border: 1px solid red;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    
+    width: 30%;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
 }
 
 footer img {
-    width: 1.3rem;
+    width: 1.1rem;
 }
