@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/essien-react-profile-card/static/css/main.366451b9.chunk.css",
+    "main.css": "/essien-react-profile-card/static/css/main.0f2ef754.chunk.css",
     "main.js": "/essien-react-profile-card/static/js/main.22bbc56c.chunk.js",
     "main.js.map": "/essien-react-profile-card/static/js/main.22bbc56c.chunk.js.map",
     "runtime-main.js": "/essien-react-profile-card/static/js/runtime-main.386af6ab.js",
@@ -8,7 +8,7 @@
     "static/js/2.e57d6cd5.chunk.js": "/essien-react-profile-card/static/js/2.e57d6cd5.chunk.js",
     "static/js/2.e57d6cd5.chunk.js.map": "/essien-react-profile-card/static/js/2.e57d6cd5.chunk.js.map",
     "index.html": "/essien-react-profile-card/index.html",
-    "static/css/main.366451b9.chunk.css.map": "/essien-react-profile-card/static/css/main.366451b9.chunk.css.map",
+    "static/css/main.0f2ef754.chunk.css.map": "/essien-react-profile-card/static/css/main.0f2ef754.chunk.css.map",
     "static/js/2.e57d6cd5.chunk.js.LICENSE.txt": "/essien-react-profile-card/static/js/2.e57d6cd5.chunk.js.LICENSE.txt",
     "static/media/heart.9beb72fc.svg": "/essien-react-profile-card/static/media/heart.9beb72fc.svg",
     "static/media/logo-facebook.e82b5050.svg": "/essien-react-profile-card/static/media/logo-facebook.e82b5050.svg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.386af6ab.js",
     "static/js/2.e57d6cd5.chunk.js",
-    "static/css/main.366451b9.chunk.css",
+    "static/css/main.0f2ef754.chunk.css",
     "static/js/main.22bbc56c.chunk.js"
   ]
 }
