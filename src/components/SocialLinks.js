@@ -4,8 +4,6 @@ import ig from '../assests/logo-instagram.svg';
 import linkedin from '../assests/logo-linkedin.svg';
 import twitter from '../assests/logo-twitter.svg';
 
-import '../css/SocialLinks.css';
-
 const SocialLinks = () => {
     return (
         <footer>

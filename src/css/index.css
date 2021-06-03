@@ -2,7 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -12,87 +11,131 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 62.5%;
-	font-family: 'Barlow Semi Condensed', sans-serif !important;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-	background-color: #e1f1dd;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: "Roboto", sans-serif !important;
+  font: inherit;
+  vertical-align: baseline;
 }
 
-@media all and (max-width: 1000px){
-	html, body, div, span, applet, object, iframe,
-	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-	a, abbr, acronym, address, big, cite, code,
-	del, dfn, em, img, ins, kbd, q, s, samp,
-	small, strike, strong, sub, sup, tt, var,
-	b, u, i, center,
-	dl, dt, dd, ol, ul, li,
-	fieldset, form, label, legend,
-	table, caption, tbody, tfoot, thead, tr, th, td,
-	article, aside, canvas, details, embed, 
-	figure, figcaption, footer, header, hgroup, 
-	menu, nav, output, ruby, section, summary,
-	time, mark, audio, video {
-		margin: 0;
-		padding: 0;
-		border: 0;
-		font-size: 62.5%;
-		font-family: 'Barlow Semi Condensed', sans-serif !important;
-		font: inherit;
-		vertical-align: baseline;
-	}
-	/* HTML5 display-role reset for older browsers */
-	article, aside, details, figcaption, figure, 
-	footer, header, hgroup, menu, nav, section {
-		display: block;
-	}
-	body {
-		line-height: 1;
-		background-color: #e1f1dd;
-	}
-	ol, ul {
-		list-style: none;
-	}
-	blockquote, q {
-		quotes: none;
-	}
-	blockquote:before, blockquote:after,
-	q:before, q:after {
-		content: '';
-		content: none;
-	}
-	table {
-		border-collapse: collapse;
-		border-spacing: 0;
-	}	
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
 }
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  min-width: 375px;
+  height: 100vh;
+  padding: 5%;
+  background: #39a9cb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body .App {
+  background: #ffeda3;
+  box-shadow: 1px 1px 30px 3px rgba(35, 35, 35, 0.5);
+  padding: 5%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body .App .pro-img-div {
+  width: 40%;
+}
+body .App .pro-img-div .pro-img {
+  width: 100%;
+  border-radius: 50%;
+  border: 5px solid #39a9cb;
+}
+body .App footer {
+  width: 50%;
+  text-align: center;
+  margin: 2% 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+body .App footer img {
+  width: 50%;
+}
+body .App .display {
+  margin: 18px 0;
+  text-align: center;
+  width: 100%;
+  border-bottom: 8px dashed #232323;
+}
+body .App .display button {
+  text-transform: uppercase;
+  color: #ffeda3;
+  background: #2940d3;
+  border: none;
+  padding: 8px 18px;
+  font-weight: bold;
+  margin: 0 8px;
+  border-radius: 5px;
+}
+body .App .display button:hover {
+  background: #39a9cb;
+  color: #232323;
+  cursor: pointer;
+}
+body .App .display p {
+  margin: 20px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #39a9cb;
+}
+body .App .like {
+  width: 15%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .App .like:hover {
+  cursor: pointer;
+}
+body .App .like span {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+  color: #ffeda3;
+}
+
+/*# sourceMappingURL=index.css.map */

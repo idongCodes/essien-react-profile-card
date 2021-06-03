@@ -1,4 +1,3 @@
-import '../css/Display.css';
 
 function Display({name, title}) {
 

@@ -1,0 +1,13 @@
+$debug: 1px solid red;
+$myYellow: #ffeda3;
+$myTeal: #39a9cb;
+$myBlue: #2940d3;
+$myBlack: #232323;
+$boxShadow: 1px 1px 30px 3px rgba($myBlack, 0.5);
+
+@mixin display($fDir) {
+   display: flex;
+   flex-direction: $fDir;
+   align-items: center;
+   justify-content: center; 
+}

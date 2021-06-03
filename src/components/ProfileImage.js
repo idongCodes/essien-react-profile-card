@@ -1,5 +1,3 @@
-import '../css/ProfileImage.css';
-
 import ProfileImg from '../assests/profileimg.jpeg';
 
 function ProfileImage() {
