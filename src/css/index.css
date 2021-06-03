@@ -63,6 +63,11 @@ body {
   align-items: center;
   justify-content: center;
 }
+@media all and (min-width: 1150px) {
+  body {
+    padding: 0;
+  }
+}
 body .App {
   background: #ffeda3;
   box-shadow: 1px 1px 30px 3px rgba(35, 35, 35, 0.5);
@@ -72,6 +77,16 @@ body .App {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+@media all and (min-width: 1150px) {
+  body .App {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+  }
 }
 body .App .pro-img-div {
   width: 40%;
@@ -90,14 +105,40 @@ body .App footer {
   align-items: center;
   justify-content: center;
 }
+@media all and (min-width: 1150px) {
+  body .App footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 13%;
+    margin: 20px 0;
+  }
+}
 body .App footer img {
   width: 50%;
+}
+@media all and (min-width: 1150px) {
+  body .App footer img {
+    width: 25%;
+    margin: 20px 0;
+  }
 }
 body .App .display {
   margin: 18px 0;
   text-align: center;
   width: 100%;
   border-bottom: 8px dashed #232323;
+}
+@media all and (min-width: 1150px) {
+  body .App .display {
+    border: none;
+    text-align: right;
+    position: relative;
+    left: 24%;
+    width: 50%;
+  }
 }
 body .App .display button {
   text-transform: uppercase;
@@ -108,6 +149,12 @@ body .App .display button {
   font-weight: bold;
   margin: 0 8px;
   border-radius: 5px;
+}
+@media all and (min-width: 1150px) {
+  body .App .display button {
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
 }
 body .App .display button:hover {
   background: #39a9cb;
@@ -120,12 +167,27 @@ body .App .display p {
   font-weight: 500;
   color: #39a9cb;
 }
+@media all and (min-width: 1150px) {
+  body .App .display p {
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 30px 0;
+  }
+}
 body .App .like {
   width: 15%;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+@media all and (min-width: 1150px) {
+  body .App .like {
+    position: relative;
+    left: 74.5%;
+    top: 5%;
+    width: 10%;
+  }
 }
 body .App .like:hover {
   cursor: pointer;

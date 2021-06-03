@@ -5,12 +5,22 @@ body {
     background: $myTeal;
     @include display(column);
 
+    @media all and (min-width: 1150px) {
+        padding: 0;
+    }
+
     .App {
         background: $myYellow;
         box-shadow: $boxShadow;
         padding: 5%;
         border-radius: 10px;
         @include display(column);
+
+        @media all and (min-width: 1150px) {
+            @include display(row-reverse);
+            width: 70%;
+            margin: auto;
+        }
 
         .pro-img-div {
             width: 40%;
@@ -28,8 +38,20 @@ body {
             margin: 2% 0;
             @include display(row);
 
+            @media all and (min-width: 1150px) {
+                @include display(column);
+                position: relative;
+                left: 13%;
+                margin: 20px 0;
+            }
+
             img {
                 width: 50%;
+
+                @media all and (min-width: 1150px) {
+                    width: 25%;
+                    margin: 20px 0;
+                }
             }
         }
 
@@ -38,6 +60,14 @@ body {
             text-align: center;
             width: 100%;
             border-bottom: 8px dashed $myBlack;
+
+            @media all and (min-width: 1150px) {
+                border: none;
+                text-align: right;
+                position: relative;
+                left: 24%;
+                width: 50%;
+            }
 
             button {
                 text-transform: uppercase;
@@ -48,6 +78,11 @@ body {
                 font-weight: bold;
                 margin: 0 8px;
                 border-radius: 5px;
+
+                @media all and (min-width: 1150px) {
+                    font-size: 1.8rem;
+                    font-weight: 500;
+                }
 
                 &:hover {
                     background: $myTeal;
@@ -61,6 +96,12 @@ body {
                 font-size: 1.3rem;
                 font-weight: 500;
                 color: $myTeal;
+
+                @media all and (min-width: 1150px) {
+                    font-size: 2rem;
+                    font-weight: 300;
+                    margin: 30px 0;
+                }
             }
         }
 
@@ -70,6 +111,13 @@ body {
             display: flex;
             align-items: center;
             justify-content: center;
+
+            @media all and (min-width: 1150px) {
+                position: relative;
+                left: 74.5%;
+                top: 5%;
+                width: 10%;
+            }
 
             &:hover {
                 cursor: pointer;
